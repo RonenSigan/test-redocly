@@ -10,6 +10,8 @@ post:
   responses:
     '200':
       description: OK
+    '400': 
+      description: Unauthorized
       headers:
         X-Rate-Limit:
           description: calls per hour allowed by the user
