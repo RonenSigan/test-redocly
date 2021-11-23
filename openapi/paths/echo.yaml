@@ -10,7 +10,7 @@ post:
   responses:
     '200':
       description: OK
-    '400': 
+    '401': 
       description: Unauthorized
       headers:
         X-Rate-Limit:
